@@ -5,11 +5,11 @@ export default class MainScene extends Phaser.Scene {
   }
   preload() {
     console.log('preload start')
-    this.load.spritesheet('zombie_appear', '/asset/img/zombie/appear.png', { frameWidth: 220, frameHeight: 288 })
-    this.load.spritesheet('zombie_attack', '/asset/img/zombie/attack.png', { frameWidth: 372, frameHeight: 324 })
-    this.load.spritesheet('zombie_die', '/asset/img/zombie/die.png', { frameWidth: 444, frameHeight: 292 })
-    this.load.spritesheet('zombie_idle', '/asset/img/zombie/idle.png', { frameWidth: 200, frameHeight: 308 })
-    this.load.spritesheet('zombie_walk', '/asset/img/zombie/walk.png', { frameWidth: 200, frameHeight: 312 })
+    this.load.spritesheet('zombie_appear', './asset/img/zombie/appear.png', { frameWidth: 220, frameHeight: 288 })
+    this.load.spritesheet('zombie_attack', './asset/img/zombie/attack.png', { frameWidth: 372, frameHeight: 324 })
+    this.load.spritesheet('zombie_die', './asset/img/zombie/die.png', { frameWidth: 444, frameHeight: 292 })
+    this.load.spritesheet('zombie_idle', './asset/img/zombie/idle.png', { frameWidth: 200, frameHeight: 308 })
+    this.load.spritesheet('zombie_walk', './asset/img/zombie/walk.png', { frameWidth: 200, frameHeight: 312 })
     console.log('preload end')
   }
   create() {
