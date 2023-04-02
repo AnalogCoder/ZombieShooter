@@ -1,0 +1,217 @@
+{
+	"frames": {
+		"go_01.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_02.png": {
+			"frame": {
+				"x": 203,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_03.png": {
+			"frame": {
+				"x": 405,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_04.png": {
+			"frame": {
+				"x": 607,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_05.png": {
+			"frame": {
+				"x": 809,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_06.png": {
+			"frame": {
+				"x": 1011,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_07.png": {
+			"frame": {
+				"x": 1213,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_08.png": {
+			"frame": {
+				"x": 1415,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_09.png": {
+			"frame": {
+				"x": 1617,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		},
+		"go_10.png": {
+			"frame": {
+				"x": 1819,
+				"y": 1,
+				"w": 200,
+				"h": 312
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 312
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 312
+			}
+		}
+	},
+	"meta": {
+		"version": "1.0",
+		"image": "go.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 2020,
+			"h": 314
+		},
+		"scale": "1"
+	},
+	"animations": {
+		"walk":["go_01.png", "go_02.png", "go_03.png", "go_04.png", "go_05.png", "go_06.png", "go_07.png", "go_08.png", "go_09.png", "go_10.png"]
+	}
+}
