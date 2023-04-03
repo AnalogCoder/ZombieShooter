@@ -44,7 +44,8 @@ export default class MainScene extends Phaser.Scene {
       frameRate: 10,
       repeat: -1
     })
-    const z = this.add.sprite(500 ,200)
+    const z = this.add.sprite(640, 300)
+    z.setOrigin(0.5, 0.5)
     z.play('zombie_appear')
     console.log('create end')
   }
