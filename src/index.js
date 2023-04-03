@@ -4,12 +4,10 @@ import IntroScene from './Scenes/IntroScene'
 
 var config = {
   type: Phaser.AUTO,
-  // parent: 'app',
   scale: {
     mode: Phaser.Scale.FIT,
-    width: 1024,
-    height: 600,
-    expandParent: false,
+    width: 1280,
+    height: 720,
     autoCenter: Phaser.Scale.Center.CENTER_HORIZONTALLY
   },
   scene: [IntroScene, MainScene]
