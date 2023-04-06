@@ -2,7 +2,7 @@ import Phaser from 'phaser'
 import MainScene from './Scenes/MainScene'
 import IntroScene from './Scenes/IntroScene'
 
-var config = {
+var game = new Phaser.Game({
   type: Phaser.AUTO,
   scale: {
     mode: Phaser.Scale.FIT,
@@ -11,8 +11,4 @@ var config = {
     autoCenter: Phaser.Scale.Center.CENTER_HORIZONTALLY
   },
   scene: [IntroScene, MainScene]
-}
-window.onload = () => {
-  var game = new Phaser.Game(config);
-}
-
+})

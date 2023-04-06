@@ -32,7 +32,7 @@ const config = {
             patterns: [
               { from: 'asset', to: 'asset'}
             ]
-          })  
+        })  
     ],
     module: {
         rules: [

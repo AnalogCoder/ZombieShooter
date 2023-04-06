@@ -12,7 +12,7 @@ export default class IntroScene extends Phaser.Scene {
   create() {
     this.anims.create({
       key: 'zombie_idle',
-      frames: this.anims.generateFrameNumbers('zombie_idle', { frames: [ 0, 1, 2, 3, 4, 5 ] }),
+      frames: this.anims.generateFrameNumbers('zombie_idle'),
       frameRate: 10,
       repeat: -1
     })
@@ -32,8 +32,5 @@ export default class IntroScene extends Phaser.Scene {
       yoyo: true,
       repeat: -1
     })
-  }
-
-  update () {
   }
 }
